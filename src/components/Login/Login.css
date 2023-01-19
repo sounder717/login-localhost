@@ -1,0 +1,98 @@
+.Login_outer {
+  padding: 5%;
+  padding: 5%;
+  background-size: 400%;
+  -webkit-animation: move 8s linear infinite;
+          animation: move 8s linear infinite;
+  background-image: linear-gradient(-130deg, rgb(29, 173, 235) 13.2%, rgb(137, 149, 250) 29.8%, rgb(229, 109, 212) 48.9%, rgb(255, 68, 128) 68.2%, rgb(255, 94, 0) 86.4%);
+  background-repeat: no-repeat;
+}
+
+.Login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Login .Login_image {
+  width: 50%;
+  height: 100%;
+}
+.Login .Login_image .Login_img {
+  width: 100%;
+  height: 100%;
+}
+.Login .Login_Content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.Login .Login_Content .Login_details {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+.Login .Login_Content .Login_details .Login_name {
+  width: 150px;
+  font-size: 1.8rem;
+}
+.Login .Login_Content .Login_details .Login_input input {
+  width: 100%;
+  height: 40px;
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+.Login .Login_Content .Login_details .Login_input .Login_Cs {
+  width: 150px;
+  font-size: 1.2rem;
+  padding-left: 0px;
+  border: none;
+}
+.Login .Login_Content .Login_details .Login_input .Cs_1 {
+  height: 50px;
+  border-radius: 10px;
+  background-color: #fe735c;
+  color: aliceblue;
+  transition: 0.5s ease-in-out;
+}
+.Login .Login_Content .Login_details .Login_input .Cs_1:hover {
+  background-color: #fff;
+  border: 2px solid #fe735c;
+  color: #fe735c;
+  cursor: pointer;
+}
+
+@media all and (max-width: 1100px) {
+  .Login .Login_image {
+    width: 0%;
+  }
+  .Login .Login_image .Login_img {
+    display: none;
+  }
+  .Login .Login_Content {
+    width: 100%;
+  }
+}
+@media all and (max-width: 750px) {
+  .Login .Login_Content {
+    width: 100%;
+  }
+  .Login .Login_Content .Login_details {
+    flex-direction: column;
+    padding: 5px;
+  }
+  .Login .Login_Content .Login_details .Login_name {
+    width: 90%;
+  }
+  .Login .Login_Content .Login_details .Login_input input {
+    width: 90%;
+  }
+  .Login .Login_Content .Login_details .Login_input .Login_Cs {
+    width: 100px;
+  }
+}/*# sourceMappingURL=Login.css.map */

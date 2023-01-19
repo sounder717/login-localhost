@@ -1,0 +1,56 @@
+.Employee {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table tbody tr {
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+}
+table tbody tr:hover {
+  background-color: aqua;
+}
+th {
+  background-color: black;
+  color: #fff;
+}
+table,
+tr {
+  border: 2px solid;
+  border-collapse: collapse;
+}
+table tbody td {
+  width: 200px;
+  padding: 15px;
+}
+thead {
+  height: 100px;
+}
+tr > td:nth-child(1) {
+  font-weight: bold;
+}
+.employee_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.employee_details button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-size: 1.2rem;
+  background-color: coral;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.employee_details button:hover {
+  border: 1px solid coral;
+  background-color: #fff;
+  color: black;
+  font-weight: 700;
+}
